@@ -21,7 +21,9 @@
 
     <script type="text/javascript">
         function otpless(otplessUser) {
-            alert(JSON.stringify(otplessUser));
+//             alert(JSON.stringify(otplessUser));
+            localStorage.setItem('UserInformation',JSON.stringify(otplessUser));
+            console.log(JSON.stringify(otplessUser));
         }
     </script>
 </body>
